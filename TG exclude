@@ -1,7 +1,14 @@
+# Telegram напрямую (iOS app + web)
 DOMAIN-SUFFIX,telegram.org,DIRECT
 DOMAIN-SUFFIX,t.me,DIRECT
 DOMAIN-SUFFIX,telegra.ph,DIRECT
 DOMAIN-SUFFIX,telegram.me,DIRECT
-DOMAIN-SUFFIX,tdesktop.com,DIRECT  # для десктопа, если нужно
-IP-CIDR,91.108.4.0/22,DIRECT  # пример IP Telegram, полный в Telegram.list
-IP-CIDR,149.154.160.0/20,DIRECT
+DOMAIN-SUFFIX,tdesktop.com,DIRECT
+IP-CIDR,91.108.4.0/22,DIRECT,no-resolve
+IP-CIDR,149.154.160.0/20,DIRECT,no-resolve
+IP-CIDR,91.105.192.0/23,DIRECT,no-resolve
+IP-CIDR,91.108.4.0/22,DIRECT,no-resolve
+IP-CIDR,91.108.8.0/22,DIRECT,no-resolve
+IP-CIDR,91.108.12.0/22,DIRECT,no-resolve
+IP-CIDR,91.108.16.0/23,DIRECT,no-resolve
+IP-CIDR,91.108.56.0/23,DIRECT,no-resolve
