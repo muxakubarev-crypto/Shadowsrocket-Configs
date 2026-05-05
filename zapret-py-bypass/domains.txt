@@ -1,0 +1,22 @@
+# Список доменов, для которых программа применяет обход DPI.
+# Один домен на строку. Поддерживаются точные имена и поддомены (по суффиксу).
+# Строки, начинающиеся с #, и пустые строки — игнорируются.
+# Добавляйте свои домены через пункт 3 меню service.bat (или вручную сюда).
+
+youtube.com
+youtu.be
+googlevideo.com
+ytimg.com
+ggpht.com
+gstatic.com
+google.com
+googleapis.com
+x.com
+twitter.com
+twimg.com
+t.co
+discord.com
+discord.gg
+discord.media
+cdn.discordapp.com
+media.discordapp.net

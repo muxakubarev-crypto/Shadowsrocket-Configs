@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+*.spec
+bypass.pid
+bypass.stop
+logs/log_*.txt
